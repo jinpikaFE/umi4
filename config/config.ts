@@ -12,6 +12,7 @@ export default defineConfig({
     layout: {
         title: '@umijs/max',
     },
+    vite: {},
     routes,
     npmClient: 'yarn',
     proxy: proxy['dev'],
